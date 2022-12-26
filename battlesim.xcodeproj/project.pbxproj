@@ -11,6 +11,9 @@
 		F13B5D5B29299E9400957DDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B5D5A29299E9400957DDC /* ContentView.swift */; };
 		F13B5D5D29299E9B00957DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13B5D5C29299E9A00957DDC /* Assets.xcassets */; };
 		F13B5D6029299E9B00957DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13B5D5F29299E9B00957DDC /* Preview Assets.xcassets */; };
+		F1D4B3D0295A19AE0038C6E5 /* Roller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4B3CF295A19AE0038C6E5 /* Roller.swift */; };
+		F1D4B3D4295A46640038C6E5 /* LandBattle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4B3D3295A46640038C6E5 /* LandBattle.swift */; };
+		F1D4B3D6295A475E0038C6E5 /* SeaBattle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4B3D5295A475E0038C6E5 /* SeaBattle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		F13B5D5A29299E9400957DDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F13B5D5C29299E9A00957DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13B5D5F29299E9B00957DDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1D4B3CF295A19AE0038C6E5 /* Roller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roller.swift; sourceTree = "<group>"; };
+		F1D4B3D3295A46640038C6E5 /* LandBattle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandBattle.swift; sourceTree = "<group>"; };
+		F1D4B3D5295A475E0038C6E5 /* SeaBattle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaBattle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				F13B5D5A29299E9400957DDC /* ContentView.swift */,
 				F13B5D5C29299E9A00957DDC /* Assets.xcassets */,
 				F13B5D5E29299E9B00957DDC /* Preview Content */,
+				F1D4B3CF295A19AE0038C6E5 /* Roller.swift */,
+				F1D4B3D3295A46640038C6E5 /* LandBattle.swift */,
+				F1D4B3D5295A475E0038C6E5 /* SeaBattle.swift */,
 			);
 			path = battlesim;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D4B3D6295A475E0038C6E5 /* SeaBattle.swift in Sources */,
 				F13B5D5B29299E9400957DDC /* ContentView.swift in Sources */,
+				F1D4B3D0295A19AE0038C6E5 /* Roller.swift in Sources */,
+				F1D4B3D4295A46640038C6E5 /* LandBattle.swift in Sources */,
 				F13B5D5929299E9400957DDC /* battlesimApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
