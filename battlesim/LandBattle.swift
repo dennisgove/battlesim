@@ -64,7 +64,7 @@ struct LandBattle {
         
         // attackers are dead, defenders are dead, attacker prioritized takeover
         // result: failed attack
-        if attacker.prioritizeTakeover {
+        if attacker.isPrioritizingTakeover() {
             return false
         }
         
@@ -99,6 +99,10 @@ struct LandAttacker {
     /// Determines if this set can continue attacking
     func canAttack() -> Bool {
         return (infantry + tanks + fighters + bombers) > 0
+    }
+    
+    func isPrioritizingTakeover() -> Bool {
+        return prioritizeTakeover
     }
     
     func calculateBattleshipHits(roller: Roller) -> Int {
